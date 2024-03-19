@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataCollectorApplication</string>
+    <string name="sign_in_text">Sign in to your account</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="facility_name">Facilty Name</string>
+    <string name="location">Location</string>
+    <string name="contact_number">Contact number</string>
+    <string name="email">Email</string>
+</resources>
