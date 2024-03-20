@@ -3,6 +3,7 @@ package com.example.datacollectorapplication.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.datacollectorapplication.R
@@ -31,4 +32,6 @@ class FacilityViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     val location: TextView = itemView.findViewById(R.id.location)
     val contactNumber: TextView = itemView.findViewById(R.id.contact_number)
     val email: TextView = itemView.findViewById(R.id.email)
+
+
 }

@@ -35,10 +35,8 @@ class AddFacilityDialog(context: Context, private val listener: OnFacilityAddedL
             val location = editTextLocation.text.toString()
             val contactNumber = editTextContactNumber.text.toString()
             val email = editTextEmail.text.toString()
-
             val facility = Facility(facilityName, location, contactNumber, email)
             listener.onFacilityAdded(facility)
-
             dismiss()
         }
     }
