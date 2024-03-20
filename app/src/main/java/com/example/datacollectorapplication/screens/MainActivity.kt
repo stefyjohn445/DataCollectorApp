@@ -1,13 +1,10 @@
-package com.example.datacollectorapplication
+package com.example.datacollectorapplication.screens
 
-import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.datacollectorapplication.FacilityFragment
+import com.example.datacollectorapplication.R
 
 class MainActivity : AppCompatActivity() {
 
