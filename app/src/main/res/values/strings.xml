@@ -23,4 +23,8 @@
     <string name="edit_button">Edit Button</string>
     <string name="role">Role</string>
     <string name="update">Update</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="patchId">Patch ID</string>
+    <string name="prescriberName">Prescriber Name</string>
 </resources>

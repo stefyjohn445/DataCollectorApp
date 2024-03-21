@@ -5,4 +5,10 @@
         <item>Nurse</item>
         <item>Prescriber</item>
     </string-array>
+
+    <string-array name="dropdown_prescriber">
+        <item>Jake</item>
+        <item>Luke</item>
+        <item>John</item>
+    </string-array>
 </resources>
