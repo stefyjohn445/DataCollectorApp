@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.datacollectorapplication.FacilityActivity
+import com.example.datacollectorapplication.screens.facility.FacilityActivity
 import com.example.datacollectorapplication.R
 import com.example.datacollectorapplication.model.Facility
 

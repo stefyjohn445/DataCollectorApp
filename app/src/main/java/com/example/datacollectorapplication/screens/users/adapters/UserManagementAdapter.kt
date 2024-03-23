@@ -7,7 +7,7 @@ import com.example.datacollectorapplication.databinding.UserManagementItemBindin
 import com.example.datacollectorapplication.model.UserManagement
 
 class UserManagementAdapter(private val usersList: List<UserManagement>, private val listener: OnItemClickListener): RecyclerView.Adapter<UserManagementAdapter.ViewHolder>() {
-    class ViewHolder(private val userManagementAdapterBinding: UserManagementItemBinding) : RecyclerView.ViewHolder(userManagementAdapterBinding.root) {
+    class ViewHolder(userManagementAdapterBinding: UserManagementItemBinding) : RecyclerView.ViewHolder(userManagementAdapterBinding.root) {
         val firstName = userManagementAdapterBinding.firstNameTV
         val lastName = userManagementAdapterBinding.lastNameTV
         val userRole = userManagementAdapterBinding.userRoleTV

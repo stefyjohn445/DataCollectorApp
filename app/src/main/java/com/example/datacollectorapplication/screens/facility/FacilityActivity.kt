@@ -1,4 +1,4 @@
-package com.example.datacollectorapplication
+package com.example.datacollectorapplication.screens.facility
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,11 +6,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.datacollectorapplication.R
 import com.example.datacollectorapplication.adapter.FacilityAdapter
 import com.example.datacollectorapplication.model.Facility
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
-class FacilityActivity : AppCompatActivity(), AddFacilityDialog.OnFacilityActionListener  {
+class FacilityActivity : AppCompatActivity(), AddFacilityDialog.OnFacilityActionListener {
     private lateinit var facilityList: RecyclerView
     private lateinit var adapter: FacilityAdapter
     private val facilities = mutableListOf<Facility>()

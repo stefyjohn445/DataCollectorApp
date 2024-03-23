@@ -20,6 +20,11 @@ class UsersActivity : AppCompatActivity() {
         usersBinding = ActivityUsersBinding.inflate(layoutInflater)
         setContentView(usersBinding.root)
 
+        val userRole = intent.getStringExtra("USER_ROLE").toString()
+        if(userRole.isNotEmpty() && userRole != "Admin"){
+            usersBinding.bottomNavBar.menu.removeItem(R.id.user_management);
+        }
+
         homeFragment = HomeFragment(this)
         userManagementFragment = UserManagementFragment(this)
 

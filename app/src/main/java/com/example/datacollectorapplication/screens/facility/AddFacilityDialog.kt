@@ -1,16 +1,15 @@
-package com.example.datacollectorapplication
+package com.example.datacollectorapplication.screens.facility
 
 import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
-import androidx.appcompat.app.AlertDialog
+import com.example.datacollectorapplication.R
 import com.example.datacollectorapplication.model.Facility
 
-class AddFacilityDialog(context: Context,  private val facility: Facility?,
+class AddFacilityDialog(context: Context, private val facility: Facility?,
                         private val listener: OnFacilityActionListener?,
                         private val isEditMode: Boolean = false) : Dialog(context) {
 
